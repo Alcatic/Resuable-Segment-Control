@@ -12,6 +12,7 @@
 		6EA5391C226E889B00FBF76B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EA5391A226E889B00FBF76B /* Main.storyboard */; };
 		6EA5391E226E889D00FBF76B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA5391D226E889D00FBF76B /* Assets.xcassets */; };
 		6EA53921226E889D00FBF76B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EA5391F226E889D00FBF76B /* LaunchScreen.storyboard */; };
+		6EA53929226E8C7500FBF76B /* RoundedSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA53928226E8C7500FBF76B /* RoundedSegmentControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6EA5391D226E889D00FBF76B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EA53920226E889D00FBF76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EA53922226E889D00FBF76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EA53928226E8C7500FBF76B /* RoundedSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedSegmentControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				6EA53916226E889B00FBF76B /* AppDelegate.swift */,
+				6EA53928226E8C7500FBF76B /* RoundedSegmentControl.swift */,
 				6EA53918226E889B00FBF76B /* ViewController.swift */,
 				6EA5391A226E889B00FBF76B /* Main.storyboard */,
 				6EA5391D226E889D00FBF76B /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			files = (
 				6EA53919226E889B00FBF76B /* ViewController.swift in Sources */,
 				6EA53917226E889B00FBF76B /* AppDelegate.swift in Sources */,
+				6EA53929226E8C7500FBF76B /* RoundedSegmentControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

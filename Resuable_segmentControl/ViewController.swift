@@ -16,5 +16,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func customSegment(_ sender: RoundedSegmentControl) {
+        print(sender.selectedSegmentIndex)
+    }
 }
 
